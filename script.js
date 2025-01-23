@@ -14,7 +14,7 @@ $.getJSON('https://api.ipify.org?format=json', function(data) {
 });
 
 // Send message function
-async function sendmessage() {
+function sendmessage() {
     if (!ipa) {
         console.error("IP address not loaded yet.");
         return;
